@@ -6,12 +6,6 @@
 #  and alert you to missing or untitled subtitles.
 ### ------------------------- ###
 
-### ------------------------- ###
-#  Issues:
-#  - if we just pass a directory as parameter, then we run directory check twice
-#  - confirm if mediainfo can detect subs in .mp4 and other files
-### ------------------------- ###
-
 IFS=$'\n'; set -f    # needed to handle file paths with spaces
 debug="$1"           # catch first parameter passed
 path="$2"            # catch second parameter passed
