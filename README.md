@@ -18,7 +18,11 @@ bash sub_check.bash [--debug | --good | --silent] /path/to/folder/
 
 ### Messages to Expect
 'embedded eng sub' - we found an embedded english subtitle in the video
+
 'external eng sub' - we found an external '.srt' subtitle that's labeled as english
+
 'unknown sub' - we found an embedded subtitle but it's not labeled as english
+
 'unknown sub (external)' - we found an external '.srt' subtitle but it's not labeled as english
+
 'no sub found' - there was no subtitle at all found
