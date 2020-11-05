@@ -7,9 +7,13 @@ we utilize the 'mediainfo' command to analyze video files, so make sure to insta
 ## How to Run
 bash sub_check.bash [--debug | --good | --silent] /path/to/folder/
 
+### Flags Options
 (no flag): will show you only files with missing or unknown subtitles
+
 --debug: will show you every file being processed whether they're missing, unknown, or found as english labeled
+
 --good: will show you only files that are known english embedded or external subtitles
+
 --silent: will not show any output (but will still create a report.txt file)
 
 ### Messages to Expect
